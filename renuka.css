@@ -1,0 +1,25 @@
+body
+{   	background: url("megha5.gif") no-repeat;
+ background-size: cover;
+
+	    font-family: Arial ,'Segoe UI',Tahoma,Geneva,Verdana;
+
+	}
+	.btn{
+padding: 12px 20px;
+background: #7F00FF;
+border: none;
+color: white;
+border-radius: 30px;
+font-size: 12px;
+text-decoration: none;
+font-weight: bold;
+transition: all .3s ease-in;
+}
+.btn:hover{
+background: transparent;
+color: #7F00FF;
+border: 2px solid #7F00FF;
+}
+										
+

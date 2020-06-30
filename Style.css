@@ -1,0 +1,78 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	font-family:'Chela One', cursive;
+	margin:0;
+	background-color:black;
+	color:white;
+}
+.image{
+	margin:0;
+	padding:0;
+}
+.navbar{
+	overflow:hidden;
+	background-color:#333;
+	font-family:'PT Sans', sans-serif;
+}
+.navbar a{
+	float:left;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 20px;
+	text-decoration:none;
+}
+.navbar a:hover{
+	background-color:#ddd;
+	color:black;
+}
+.cont {
+position: absolute;
+top: 80%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.cont > div {
+margin:opx 10px;
+width:40px;
+height:40px;
+background:#333;
+text-align:center;
+line-height:40px;
+border-radius:50%;
+color:#fff;
+}
+div.fa-facebook {
+background:#5252b8;
+}
+div.fa-twitter {
+background:#00acee;
+}
+div.fa-instagram {
+background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);;;
+}
+div.fa-google-plus {
+background: tomato;
+}
+div.fa-facebook:hover {
+color:#5252b8;
+background:#fff;
+border:1px solid #5252b8;
+}
+div.fa-twitter:hover {
+color:#00acee;
+background:#fff;
+border:1px solid #00acee;
+}
+div.fa-instagram:hover {
+color:#d6249f;
+background:#fff;
+border:1px solid #d6249f;
+}
+div.fa-google-plus:hover {
+color: tomato;
+background:#fff;
+border:1px solid tomato;
+}
